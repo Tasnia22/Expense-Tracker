@@ -21,7 +21,7 @@ _db = await openDatabase(path , version: 1,
   CREATE TABLE expenses(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
   title TEXT,
-  amount REAL,
+  amount REAL
   )
   ''');
   },
